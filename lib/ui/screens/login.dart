@@ -10,6 +10,23 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+        double width = MediaQuery.of(context).size.width;
+
+    return Scaffold(
+      backgroundColor: Color(0xff314BCE),
+      body: GestureDetector(
+
+        onTap: () {
+          FocusScope.of(context).requestFocus(FocusNode());
+        },
+
+        child: SingleChildScrollView(
+          child: Column(children: [
+
+            SizedBox(height: 60,)
+          ],),
+        ),
+      ),
+    );
   }
 }

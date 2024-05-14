@@ -14,9 +14,7 @@ class TrianaApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [],
-      child:  MaterialApp(
+    return  MaterialApp(
          title: 'Flutter Demo',
          
           supportedLocales:  const [
@@ -25,8 +23,7 @@ class TrianaApp extends StatelessWidget {
           ],
 
           home: LoginScreen(),
-      ),
-    );
+      );
   }
 }
 
