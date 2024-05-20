@@ -46,8 +46,9 @@ class _LoginScreenState extends State<LoginScreen> {
                               fontWeight: FontWeight.bold,
                               fontSize: 31,
                             ),
+                            textAlign: TextAlign.center,
                           ),
-                          const SizedBox(height: 20),
+                          const Spacer(),
                           Pinput(
                             length: 4,
                             showCursor: true,
@@ -68,9 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                             onCompleted: (pin) => print(pin),
                           ),
-                          const SizedBox(
-                            height: 42,
-                          ),
+                          const Spacer(),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.white,
