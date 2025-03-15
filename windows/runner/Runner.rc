@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "lyra_latam_mobile_app" "\0"
+            VALUE "FileDescription", "votefusion_mobile_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "lyra_latam_mobile_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "lyra_latam_mobile_app.exe" "\0"
-            VALUE "ProductName", "lyra_latam_mobile_app" "\0"
+            VALUE "InternalName", "votefusion_mobile_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "votefusion_mobile_app.exe" "\0"
+            VALUE "ProductName", "votefusion_mobile_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
